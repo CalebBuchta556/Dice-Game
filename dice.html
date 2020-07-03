@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="https://calebbuchta.com/vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="https://calebbuchta.com/vendors/css/grid.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="resources/css/style.css">
+        
+        <title>Pig Game</title>
+    </head>
+
+    <body>
+        <section class="section-back-to-home">
+            <style>
+                a:link,
+                a:visited {
+                    text-decoration: none;
+                }
+                
+                .section-back-to-home {
+                        height: 50px;
+                        padding: 0;
+                        padding-top: 0px;
+                        background-color: #003d91;
+                        color: #fff;
+                    }
+
+                    .section-back-to-home p {
+                        float: right;
+                    }
+
+                    .section-back-to-home a {
+                        color: #fff;
+                        padding: 5px 15px;
+                        border: 1px solid #fff;
+                        border-radius: 99px;
+                        font-size: 70%;
+                        text-transform: uppercase;
+                    }
+
+                    .section-back-to-home a:hover,
+                    .section-back-to-home a:active {
+                        background-color: #fff;
+                        color: #003d91;
+                    }
+            </style>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <p>Ready to see other projects?</p>
+                </div>
+                <div class="col span-1-of-2">
+                    <a href="https://calebbuchta.com">Go back home</a>
+                </div>
+            </div>
+        </section>
+        
+        <div class="wrapper clearfix">
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">43</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">11</div>
+                </div>
+            </div>
+            
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">72</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+            
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+            
+            <img src="dice-5.png" alt="Dice" class="dice">
+        </div>
+        
+        <script src="resources/js/app.js"></script>
+    </body>
+</html>
